@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             if (boardStatus[0][2] == 1) {
                 textView.text = "PLAYER X WINS !"
                 winStatus = true
-            } else if (boardStatus[0][0] == 0) {
+            } else if (boardStatus[0][2] == 0) {
                 textView.text = "PLAYER O WINS !"
                 winStatus = true
             }
